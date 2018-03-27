@@ -26,8 +26,9 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int n = 4;
-        System.out.println("Sum of Fibonacci" + 
-        " numbers is : "+ calculateSum(n));
+         Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan angka :");
+        int n = sc.nextInt();
+        System.out.println("Jumlah Fibonacci : "+ calculateSum(n));
     }
 }
